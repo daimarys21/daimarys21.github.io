@@ -1,0 +1,422 @@
+/* app global css */
+.q-item__label.q-item__label--caption.text-caption:empty {
+  display: none;
+}
+
+.q-icon.on-right {
+  margin-left: 6px;
+}
+
+.q-icon.on-left {
+  margin-right: 6px;
+}
+
+.bg-brand {
+  background: #a2aa33 !important;
+}
+
+/* Login y registro */
+
+@media screen and (min-width: 600px) {
+  .auth-card {
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 599px) {
+.auth-card {
+  text-align: center;
+  width: 100%;
+  padding: 10%;
+  max-width: 400px;
+}
+}
+
+.auth-header {
+  color: var(--q-secondary);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.auth-footer p {
+  margin-bottom: 0;
+}
+
+
+.titulo {
+  width: 45%;
+}
+
+.text-second {
+  font-family: 'Poppins', sans-serif;
+  color: #0150AC;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login1 {
+  padding-top: 10%;
+  color: #454545;
+}
+.circles{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    list-style: none;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    
+}
+.uno {
+    position: fixed;
+    top: -20%;
+    left: -15%;
+    background: #498536;
+}
+
+.dos {
+    position: fixed;
+    top: 90%;
+    right: -15%;
+    background: #b0ccfa;
+}
+
+.boton1 {
+  width: 100%; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+/* Avatar */
+.user-avatar{ 
+  color: var(--q-secondary);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-size: 5rem;
+}
+
+/* Pages */
+h5.page-title {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+
+/*Registro */
+
+@media screen and (min-width: 601px) {
+  .otro {
+    padding: 50px;
+  }
+  .texto-mod1{
+    position: relative;
+    top: 30%;
+    left: 0%;
+  }
+
+  .boton2 {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    bottom: -50%;
+    right: 0%;
+  }
+  
+  .texto-mod2 {
+    font-size: 2.5rem;
+    line-height: 150%;
+    width: 70%;
+    position: relative;
+    top: 40%;
+    left: 0%;
+  }
+
+  .texto-mod3 {
+    position: relative;
+    top: -5%;
+    font-size: 3rem;
+  }
+
+  .texto-mod4 {
+    width: 60%;
+    line-height: 150%;
+    font-size: 2rem;
+    position: relative;
+    top: -23%;
+  }
+  .texto-mod5 {
+    font-size: 2rem;
+    position: relative;
+    top: -10%;
+    margin-top: 1%;
+  }
+
+  .ul1 {
+    font-size: 1.3rem;
+    position: relative;
+    top: -13%;
+    left: 5%;
+  }
+
+  .boton2-1 {
+    position: relative;
+    bottom: 4%;
+  }
+ 
+  .bton_2 {
+    position: relative;
+    left: 62%;
+  }
+
+  .bton_3 {
+    position: relative;
+    right: 50%;
+  }
+
+
+  .div1 {
+    position: fixed;
+    left: -1%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .boton2_2 {
+    position: relative;
+    left: 41.5%;
+    bottom: -2%;
+  }
+
+  .logo-1 {
+    border-radius: 50%; 
+    width: 10%; 
+    height: 25%;
+    position: fixed;
+    top: 0%;
+    right: 10%;
+  }
+
+  .logo-2 {
+    border-radius: 50%; 
+    width: 10%; 
+    height: 25%;
+    position: fixed;
+    top: 0%;
+    left: 45%;
+  }
+
+  .tittle {
+    font-weight: 500;
+    position: relative;
+    left: 40%;
+  }
+
+  .select-1 {
+    position: relative;
+    top: 32%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .otro {
+    padding: 10%;
+    }
+
+  .texto-mod1 {
+    font-size: 2.3rem;
+    position: relative;
+    top: 20%;
+  }
+  
+  .texto-mod2 {
+    font-size: 1rem;
+    width: 100%;
+    position: relative;
+    top: 25%;
+  }
+  
+  .texto-mod3 {
+    font-size: 2.3rem;
+  }
+  
+  .boton2 {
+    position: relative;
+    bottom: -30%;
+    margin-top: 10%;
+  }
+  
+  .texto-mod5 {
+    font-size: 1.2rem;
+    padding-top: 5%;
+    margin-left: 0%;
+    font-size: 1rem;
+  }
+
+  .bton_2 {
+    position: relative;
+  color: #3B3B3B; /* cambiar*/
+  }
+
+  .logo-1 {
+    border-radius: 50%; 
+    width: 25%; 
+    height: 20%;
+    position: fixed;
+    top: 0%;
+    right: 5%;
+  }
+
+  .logo-2 {
+    border-radius: 50%; 
+    width: 25%; 
+    height: 20%;
+    position: fixed;
+    top: 0%;
+    left: 40%;
+  }
+
+  .tittle {
+    font-weight: 500;
+    position: relative;
+    left: 30%;
+  }
+
+}
+
+/* /////////////////////////////////////// */
+.texto-mod1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #3B3B3B;
+}
+
+.texto-mod2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #3B3B3B;
+
+}
+
+.texto-mod3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #3B3B3B;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: 120%;
+}
+
+
+.texto-mod4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #3B3B3B;
+  text-align: left;
+}
+
+.texto-mod5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
+  color: #3B3B3B;
+}
+
+
+
+.boton2, .boton2-1, .boton2_2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.ul1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
+  text-align: justify;
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+
+.spaced1 {
+  margin-left: 15%;
+}
+
+
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
+  color: #3B3B3B;
+}
+
+
+.titulo3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 5%;
+  color: #3B3B3B;
+}
+
+.centerr {
+  position: relative;
+  left: 23%;
+}
+
+
+/* ////////////////////////////////////  */
+
+.menu-btn {
+  position: fixed;
+  top: 3%;
+  right: 5%;
+}
+
+.header-img {
+  position: absolute;
+  top: 80%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  height: 200%; /* Altura relativa de la imagen dentro del header */
+  width: auto;
+}
+
+table > *{
+  font-size:2em
+}
+th,td{
+  padding:0.5em;
+  text-align:center;
+}
+.circle {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.arriba{
+  position:fixed;
+  top: -19%;
+  left: -19%;
+  background-color: #498536;
+}
+.abajo{
+  background-color: #b0ccfa;
+  position:fixed;
+  bottom: -19%;
+  right: -19%;
+}
+.my-card{
+  background: white;
+  text-align:center;
+}
+
